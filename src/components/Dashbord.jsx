@@ -18,7 +18,7 @@ export default function Dashboard() {
 // aaefc358bbaa4927b009d0c6e65744b1
 
   useEffect(() => {
-    axios.get('https://api.currencyfreaks.com/v2.0/rates/latest?apikey=')
+    axios.get('https://api.currencyfreaks.com/v2.0/rates/latest?apikey=aaefc358bbaa4927b009d0c6e65744b1')
       .then((response) => {
         setData(response.data.rates);
       })
