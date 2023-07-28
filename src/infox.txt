@@ -1,0 +1,8 @@
+------------site web pour api:
+https://currencyfreaks.com/documentation.html
+
+---------commande react:
+npm install react-select   (pour style select)
+npm install axios 
+npm install sweetalert
+
